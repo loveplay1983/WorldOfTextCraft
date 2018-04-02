@@ -30,7 +30,8 @@ class Boss : public Entity{
 	  int healPower=0,
 	  int defensePower=0,
 	  int mana=0,
-	  int multiAttackPower=0 );
+	  int multiAttackPower=0,
+	  bool heroic = false);
 
     // Default defend, heal, and attack
     virtual int defend( Entity * other =0){
@@ -44,7 +45,10 @@ class Boss : public Entity{
     }
 
     // Special multiattack to attack many at once. 
-    virtual int multiAttack( Entity * other = 0);
+    virtual int multiAttack( Entity * other = 0, int ap = -1);
+    // Or give a full list of the ones to attack. Useful for enhancing multi-attack
+    // at the cost of mana. 
+    void multiAttack( std::vector< std::shared_ptr<Entity> > & others );
 
     virtual void printStats(std::ostream &out) const;
     virtual void print(std::ostream &out) const;
@@ -53,10 +57,11 @@ class Boss : public Entity{
    // Overload the input method.
    virtual void input( std::string line );
 
+   void setHeroic(bool b){heroic_=b;}
 
  private :
    int multiAttackPower_;    // The attack power of a mob who can attack more than one opponent. 
-
+   bool heroic_;             // Is this heroic? (additional power on third attack at cost of 10 mana)
 
 };
 

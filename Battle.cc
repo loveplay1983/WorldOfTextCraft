@@ -96,6 +96,8 @@ bool Battle::readNPCConfiguration( std::string filename )
     return false;
   } else {
     std::ifstream in(filename);
+    bool isHeroic = filename.find("Heroic") != std::string::npos;
+    std::cout << "Boss is heroic!" << std::endl;
     while ( ! in.eof() ) {
       std::string line;
       std::getline(in,line);
@@ -108,8 +110,10 @@ bool Battle::readNPCConfiguration( std::string filename )
 	if ( description_ == "" ) {
 	  description_ = line;
 	} else {
+	  
 	  std::shared_ptr<Entity> boss (new Boss() );
 	  boss->input( line );
+	  dynamic_cast< Boss *>(boss.get())->setHeroic( isHeroic );
 	  npcs_.push_back( boss );
 	}
       }
@@ -297,11 +301,8 @@ bool Battle::performScriptedActions( ) {
     Boss * boss = dynamic_cast<Boss *> (it->source.get()); 
     if ( boss != 0 ) {
       // Attack the entire party in a "MultiAttack"
-      if ( it->action == MULTIATTACK ) {	
-	for ( coll_type::iterator itarget = pcs_.begin();
-	      itarget != pcs_.end(); ++itarget ) {
-	  boss->multiAttack( itarget->get() );
-	}
+      if ( it->action == MULTIATTACK ) {
+	boss->multiAttack( pcs_ );
 	continue;
       }
       // If the target is dead, switch to the next in the list.
@@ -403,11 +404,10 @@ bool Battle::performUserActions( std::istream & in ) {
     if ( boss != 0 ) {
       // Attack the entire party in a "MultiAttack"
       if ( it->action == MULTIATTACK ) {	
-	for ( coll_type::iterator itarget = pcs_.begin();
-	      itarget != pcs_.end(); ++itarget ) {
-	  boss->multiAttack( itarget->get() );
+	if ( it->action == MULTIATTACK ) {
+	  boss->multiAttack( pcs_ );
+	  continue;
 	}
-	continue;
       }
       // If the target is dead, switch to the next in the list.
       if ( boss->getTarget() != 0 && boss->getTarget()->isDead() ) {

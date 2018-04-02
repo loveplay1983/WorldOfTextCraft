@@ -1,0 +1,31 @@
+Jaina:
+   attack: 230 damage
+   multi-attack: 0 damage
+   defended: 0 defense
+   healed: 0 points
+
+Fordring:
+   attack: 0 damage
+   multi-attack: 0 damage
+   defended: 178 defense
+   healed: 0 points
+
+Mograine:
+   attack: 282 damage
+   multi-attack: 0 damage
+   defended: 0 defense
+   healed: 0 points
+
+Thrall:
+   attack: 0 damage
+   multi-attack: 0 damage
+   defended: 0 defense
+   healed: 120 points
+
+
+BOSS:  Arthas:
+   attack: 140 damage
+   multi-attack: 314 damage
+   defended: 0 defense
+   healed: 0 points
+

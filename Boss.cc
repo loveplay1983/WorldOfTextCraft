@@ -2,23 +2,25 @@
 #include <sstream>
 #include <iomanip>
 
-Boss::Boss( std::string name, int attackPower, int defensePower, int healPower, int mana, int multiAttackPower ) :
+Boss::Boss( std::string name, int attackPower, int defensePower, int healPower, int mana, int multiAttackPower, bool heroic ) :
   Entity( "Boss", name, attackPower, defensePower, healPower, mana, false) {
   multiAttackPower_ = multiAttackPower; 
   hitPoints_ = 500;
   maxHitPoints_ = 500;
+  heroic_ = heroic;
 };
 
 
    
-int Boss::multiAttack( Entity * other ) {
+int Boss::multiAttack( Entity * other, int ap_input ) {
 
   Entity * originalTarget = getTarget();
 
   if ( other != 0 ) {
     setTarget(other);
   }
-  int ap = this->multiAttackPower_;
+
+  int ap = (ap_input >= 0) ? ap_input : this->multiAttackPower_;
 
   if ( getTarget() != 0 ) {
     std::cout << name() << " multi-attacks " << getTarget()->name() << " with attack power " << ap<< std::endl;
@@ -31,7 +33,34 @@ int Boss::multiAttack( Entity * other ) {
     return 0;
   }
 };
+
+
+
+void Boss::multiAttack( std::vector< std::shared_ptr<Entity> > & others ) {
+
+  static int lastturn = -1;
+
+  if ( heroic_ && mana_ >= 10 ) {
+    std::cout << "Boss does Heroic multi-attack!" << std::endl;
+  }
+  
+    
+  int ap = this->multiAttackPower_;
+  if ( heroic_ && mana_ >= 10 ) {     
+    ap *= 1.5;
+  }  
+  for ( auto other : others ) {
+    multiAttack( other.get(), ap );
+  }
+  if ( lastturn != getTurn() ) {
+    if ( mana_ >= 10 )
+      mana_ -= 10;   // Be sure to only remove the mana once!
+    lastturn = getTurn(); 
+  }
+  
+};
    
+
 
 // Print to "out"
 void Boss::printStats( std::ostream & out) const {
