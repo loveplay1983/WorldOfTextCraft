@@ -94,6 +94,7 @@
 #include "Warrior.h"
 #include "Rogue.h"
 #include "Priest.h"
+#include "Mage.h"
 
 class Battle {
  public:

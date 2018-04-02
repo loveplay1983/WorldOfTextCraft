@@ -70,6 +70,8 @@ bool Battle::readPCConfiguration( std::string filename )
 	  entity = std::shared_ptr<Entity> ( new Priest() );
 	} else if ( entityType == "Rogue" ) {
 	  entity = std::shared_ptr<Entity> ( new Rogue() );
+	} else if ( entityType == "Mage" ) {
+	  entity = std::shared_ptr<Entity> ( new Mage() );
 	} else {
 	  std::cout << "Entity Type not recognized: " << line << ", skipping" << std::endl;
 	  continue;
