@@ -20,7 +20,7 @@ Thrall:
    attack: 0 damage
    multi-attack: 0 damage
    defended: 0 defense
-   healed: 120 points
+   healed: 84 points
 
 
 BOSS:  Arthas:
@@ -28,5 +28,4 @@ BOSS:  Arthas:
    multi-attack: 272 damage
    defended: 0 defense
    healed: 0 points
-
 
