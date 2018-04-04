@@ -1,0 +1,4 @@
+Fordring;defend;Arthas
+Thrall;heal;Mograine
+Mograine;attack;Arthas
+Jaina;attack;Arthas
