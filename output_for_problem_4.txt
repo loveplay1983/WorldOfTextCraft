@@ -63,18 +63,17 @@ Mograine loses 12 hit points after attack 12 and defense 0
 Arthas multi-attacks Jaina with attack power 12
 Jaina loses 12 hit points after attack 12 and defense 0
 Action for Fordring: 
-
 Fordring;defend;Arthas
 Thrall;heal;Mograine
 Mograine;attack;Arthas
-Jaina;attack;ArthasFordring defends against Arthas, defense mitigation 10
+Jaina;attack;Arthas
+Fordring defends against Arthas, defense mitigation 10
 Action for Thrall: 
 Thrall heals Mograine for 12
 Action for Mograine: 
 Mograine attacks Arthas with attack power 20
 Arthas loses 20 hit points after attack 20 and defense 0
 Action for Jaina: 
-
 Jaina attacks Arthas with attack power 30
 Arthas loses 30 hit points after attack 30 and defense 0
 ------------------------------- Turn : 1-------------------------------
@@ -91,16 +90,15 @@ Arthas loses 30 hit points after attack 30 and defense 0
 Arthas attacks Fordring with attack power 20
 Fordring loses 10 hit points after attack 20 and defense 10
 Boss does Heroic multi-attack!
-Arthas multi-attacks Fordring with attack power 12
-Fordring loses 2 hit points after attack 12 and defense 10
-Arthas multi-attacks Thrall with attack power 12
-Thrall loses 12 hit points after attack 12 and defense 0
-Arthas multi-attacks Mograine with attack power 12
-Mograine loses 12 hit points after attack 12 and defense 0
-Arthas multi-attacks Jaina with attack power 12
-Jaina loses 12 hit points after attack 12 and defense 0
+Arthas multi-attacks Fordring with attack power 8
+Fordring loses 0 hit points after attack 8 and defense 10
+Arthas multi-attacks Thrall with attack power 8
+Thrall loses 8 hit points after attack 8 and defense 0
+Arthas multi-attacks Mograine with attack power 8
+Mograine loses 8 hit points after attack 8 and defense 0
+Arthas multi-attacks Jaina with attack power 8
+Jaina loses 8 hit points after attack 8 and defense 0
 Action for Fordring: 
-
 Fordring;defend;Arthas
 Thrall;heal;Mograine
 Mograine;attack;Arthas
@@ -117,27 +115,26 @@ Arthas loses 20 hit points after attack 20 and defense 0
 ------------------------------- Turn : 2-------------------------------
 --------------
    === players:
-    Fordring (   Warrior): HP=   76, mana =     0, target=      Arthas
-      Thrall (    Priest): HP=   76, mana =    80, target=    Mograine
+    Fordring (   Warrior): HP=   78, mana =     0, target=      Arthas
+      Thrall (    Priest): HP=   80, mana =    80, target=    Mograine
     Mograine (     Rogue): HP=  100, mana =     0, target=      Arthas
-       Jaina (      Mage): HP=   76, mana =    80, target=      Arthas
+       Jaina (      Mage): HP=   80, mana =    80, target=      Arthas
 
    === monsters:
-      Arthas (      Boss): HP=  403, mana =    10, target=    Fordring
+      Arthas (      Boss): HP=  403, mana =    20, target=    Fordring
 --------------
 Arthas attacks Fordring with attack power 20
 Fordring loses 10 hit points after attack 20 and defense 10
 Boss does Heroic multi-attack!
-Arthas multi-attacks Fordring with attack power 12
-Fordring loses 2 hit points after attack 12 and defense 10
-Arthas multi-attacks Thrall with attack power 12
-Thrall loses 12 hit points after attack 12 and defense 0
-Arthas multi-attacks Mograine with attack power 12
-Mograine loses 12 hit points after attack 12 and defense 0
-Arthas multi-attacks Jaina with attack power 12
-Jaina loses 12 hit points after attack 12 and defense 0
+Arthas multi-attacks Fordring with attack power 8
+Fordring loses 0 hit points after attack 8 and defense 10
+Arthas multi-attacks Thrall with attack power 8
+Thrall loses 8 hit points after attack 8 and defense 0
+Arthas multi-attacks Mograine with attack power 8
+Mograine loses 8 hit points after attack 8 and defense 0
+Arthas multi-attacks Jaina with attack power 8
+Jaina loses 8 hit points after attack 8 and defense 0
 Action for Fordring: 
-
 Fordring;defend;Arthas
 Thrall;heal;Mograine
 Mograine;attack;Arthas
@@ -154,33 +151,33 @@ Arthas loses 20 hit points after attack 20 and defense 0
 ------------------------------- Turn : 3-------------------------------
 --------------
    === players:
-    Fordring (   Warrior): HP=   64, mana =     0, target=      Arthas
-      Thrall (    Priest): HP=   64, mana =    70, target=    Mograine
+    Fordring (   Warrior): HP=   68, mana =     0, target=      Arthas
+      Thrall (    Priest): HP=   72, mana =    70, target=    Mograine
     Mograine (     Rogue): HP=  100, mana =     0, target=      Arthas
-       Jaina (      Mage): HP=   64, mana =    70, target=      Arthas
+       Jaina (      Mage): HP=   72, mana =    70, target=      Arthas
 
    === monsters:
-      Arthas (      Boss): HP=  363, mana =     0, target=    Fordring
+      Arthas (      Boss): HP=  363, mana =    20, target=    Fordring
 --------------
 Arthas attacks Fordring with attack power 20
 Fordring loses 10 hit points after attack 20 and defense 10
-Arthas multi-attacks Fordring with attack power 8
-Fordring loses 0 hit points after attack 8 and defense 10
-Arthas multi-attacks Thrall with attack power 8
-Thrall loses 8 hit points after attack 8 and defense 0
-Arthas multi-attacks Mograine with attack power 8
-Mograine loses 8 hit points after attack 8 and defense 0
-Arthas multi-attacks Jaina with attack power 8
-Jaina loses 8 hit points after attack 8 and defense 0
+Boss does Heroic multi-attack!
+Arthas multi-attacks Fordring with attack power 12
+Fordring loses 2 hit points after attack 12 and defense 10
+Arthas multi-attacks Thrall with attack power 12
+Thrall loses 12 hit points after attack 12 and defense 0
+Arthas multi-attacks Mograine with attack power 12
+Mograine loses 12 hit points after attack 12 and defense 0
+Arthas multi-attacks Jaina with attack power 12
+Jaina loses 12 hit points after attack 12 and defense 0
 Action for Fordring: 
-
 Fordring;defend;Arthas
-Thrall;heal;Jaina
+Thrall;heal;Mograine
 Mograine;attack;Arthas
 Jaina;attack;Arthas
 Fordring defends against Arthas, defense mitigation 10
 Action for Thrall: 
-Thrall heals Jaina for 12
+Thrall heals Mograine for 12
 Action for Mograine: 
 Mograine attacks Arthas with attack power 27
 Arthas loses 27 hit points after attack 27 and defense 0
@@ -190,16 +187,17 @@ Arthas loses 20 hit points after attack 20 and defense 0
 ------------------------------- Turn : 4-------------------------------
 --------------
    === players:
-    Fordring (   Warrior): HP=   54, mana =     0, target=      Arthas
-      Thrall (    Priest): HP=   56, mana =    60, target=       Jaina
-    Mograine (     Rogue): HP=   92, mana =     0, target=      Arthas
-       Jaina (      Mage): HP=   68, mana =    60, target=      Arthas
+    Fordring (   Warrior): HP=   56, mana =     0, target=      Arthas
+      Thrall (    Priest): HP=   60, mana =    60, target=    Mograine
+    Mograine (     Rogue): HP=  100, mana =     0, target=      Arthas
+       Jaina (      Mage): HP=   60, mana =    60, target=      Arthas
 
    === monsters:
-      Arthas (      Boss): HP=  316, mana =     0, target=    Fordring
+      Arthas (      Boss): HP=  316, mana =    10, target=    Fordring
 --------------
 Arthas attacks Fordring with attack power 20
 Fordring loses 10 hit points after attack 20 and defense 10
+Boss does Heroic multi-attack!
 Arthas multi-attacks Fordring with attack power 8
 Fordring loses 0 hit points after attack 8 and defense 10
 Arthas multi-attacks Thrall with attack power 8
@@ -209,14 +207,13 @@ Mograine loses 8 hit points after attack 8 and defense 0
 Arthas multi-attacks Jaina with attack power 8
 Jaina loses 8 hit points after attack 8 and defense 0
 Action for Fordring: 
-
 Fordring;defend;Arthas
-Thrall;heal;Jaina
+Thrall;heal;Mograine
 Mograine;attack;Arthas
 Jaina;attack;Arthas
 Fordring defends against Arthas, defense mitigation 10
 Action for Thrall: 
-Thrall heals Jaina for 12
+Thrall heals Mograine for 12
 Action for Mograine: 
 Mograine attacks Arthas with attack power 20
 Arthas loses 20 hit points after attack 20 and defense 0
@@ -226,16 +223,17 @@ Arthas loses 30 hit points after attack 30 and defense 0
 ------------------------------- Turn : 5-------------------------------
 --------------
    === players:
-    Fordring (   Warrior): HP=   44, mana =     0, target=      Arthas
-      Thrall (    Priest): HP=   48, mana =    50, target=       Jaina
-    Mograine (     Rogue): HP=   84, mana =     0, target=      Arthas
-       Jaina (      Mage): HP=   72, mana =    50, target=      Arthas
+    Fordring (   Warrior): HP=   46, mana =     0, target=      Arthas
+      Thrall (    Priest): HP=   52, mana =    50, target=    Mograine
+    Mograine (     Rogue): HP=  100, mana =     0, target=      Arthas
+       Jaina (      Mage): HP=   52, mana =    50, target=      Arthas
 
    === monsters:
-      Arthas (      Boss): HP=  266, mana =     0, target=    Fordring
+      Arthas (      Boss): HP=  266, mana =    10, target=    Fordring
 --------------
 Arthas attacks Fordring with attack power 20
 Fordring loses 10 hit points after attack 20 and defense 10
+Boss does Heroic multi-attack!
 Arthas multi-attacks Fordring with attack power 8
 Fordring loses 0 hit points after attack 8 and defense 10
 Arthas multi-attacks Thrall with attack power 8
@@ -245,14 +243,13 @@ Mograine loses 8 hit points after attack 8 and defense 0
 Arthas multi-attacks Jaina with attack power 8
 Jaina loses 8 hit points after attack 8 and defense 0
 Action for Fordring: 
-
 Fordring;defend;Arthas
-Thrall;heal;Jaina
+Thrall;heal;Mograine
 Mograine;attack;Arthas
 Jaina;attack;Arthas
 Fordring defends against Arthas, defense mitigation 10
 Action for Thrall: 
-Thrall heals Jaina for 12
+Thrall heals Mograine for 12
 Action for Mograine: 
 Mograine attacks Arthas with attack power 27
 Arthas loses 27 hit points after attack 27 and defense 0
@@ -262,26 +259,26 @@ Arthas loses 20 hit points after attack 20 and defense 0
 ------------------------------- Turn : 6-------------------------------
 --------------
    === players:
-    Fordring (   Warrior): HP=   34, mana =     0, target=      Arthas
-      Thrall (    Priest): HP=   40, mana =    40, target=       Jaina
-    Mograine (     Rogue): HP=   76, mana =     0, target=      Arthas
-       Jaina (      Mage): HP=   76, mana =    40, target=      Arthas
+    Fordring (   Warrior): HP=   36, mana =     0, target=      Arthas
+      Thrall (    Priest): HP=   44, mana =    40, target=    Mograine
+    Mograine (     Rogue): HP=  100, mana =     0, target=      Arthas
+       Jaina (      Mage): HP=   44, mana =    40, target=      Arthas
 
    === monsters:
-      Arthas (      Boss): HP=  219, mana =     0, target=    Fordring
+      Arthas (      Boss): HP=  219, mana =    10, target=    Fordring
 --------------
 Arthas attacks Fordring with attack power 20
 Fordring loses 10 hit points after attack 20 and defense 10
-Arthas multi-attacks Fordring with attack power 8
-Fordring loses 0 hit points after attack 8 and defense 10
-Arthas multi-attacks Thrall with attack power 8
-Thrall loses 8 hit points after attack 8 and defense 0
-Arthas multi-attacks Mograine with attack power 8
-Mograine loses 8 hit points after attack 8 and defense 0
-Arthas multi-attacks Jaina with attack power 8
-Jaina loses 8 hit points after attack 8 and defense 0
+Boss does Heroic multi-attack!
+Arthas multi-attacks Fordring with attack power 12
+Fordring loses 2 hit points after attack 12 and defense 10
+Arthas multi-attacks Thrall with attack power 12
+Thrall loses 12 hit points after attack 12 and defense 0
+Arthas multi-attacks Mograine with attack power 12
+Mograine loses 12 hit points after attack 12 and defense 0
+Arthas multi-attacks Jaina with attack power 12
+Jaina loses 12 hit points after attack 12 and defense 0
 Action for Fordring: 
-
 Fordring;defend;Arthas
 Thrall;heal;Mograine
 Mograine;attack;Arthas
@@ -300,8 +297,8 @@ Arthas loses 20 hit points after attack 20 and defense 0
    === players:
     Fordring (   Warrior): HP=   24, mana =     0, target=      Arthas
       Thrall (    Priest): HP=   32, mana =    30, target=    Mograine
-    Mograine (     Rogue): HP=   80, mana =     0, target=      Arthas
-       Jaina (      Mage): HP=   68, mana =    30, target=      Arthas
+    Mograine (     Rogue): HP=  100, mana =     0, target=      Arthas
+       Jaina (      Mage): HP=   32, mana =    30, target=      Arthas
 
    === monsters:
       Arthas (      Boss): HP=  179, mana =     0, target=    Fordring
@@ -317,7 +314,6 @@ Mograine loses 8 hit points after attack 8 and defense 0
 Arthas multi-attacks Jaina with attack power 8
 Jaina loses 8 hit points after attack 8 and defense 0
 Action for Fordring: 
-
 Fordring;defend;Arthas
 Thrall;heal;Mograine
 Mograine;attack;Arthas
@@ -336,8 +332,8 @@ Arthas loses 20 hit points after attack 20 and defense 0
    === players:
     Fordring (   Warrior): HP=   14, mana =     0, target=      Arthas
       Thrall (    Priest): HP=   24, mana =    20, target=    Mograine
-    Mograine (     Rogue): HP=   84, mana =     0, target=      Arthas
-       Jaina (      Mage): HP=   60, mana =    20, target=      Arthas
+    Mograine (     Rogue): HP=  100, mana =     0, target=      Arthas
+       Jaina (      Mage): HP=   24, mana =    20, target=      Arthas
 
    === monsters:
       Arthas (      Boss): HP=  132, mana =     0, target=    Fordring
@@ -353,7 +349,6 @@ Mograine loses 8 hit points after attack 8 and defense 0
 Arthas multi-attacks Jaina with attack power 8
 Jaina loses 8 hit points after attack 8 and defense 0
 Action for Fordring: 
-
 Fordring;defend;Arthas
 Thrall;heal;Mograine
 Mograine;attack;Arthas
@@ -372,8 +367,8 @@ Arthas loses 30 hit points after attack 30 and defense 0
    === players:
     Fordring (   Warrior): HP=    4, mana =     0, target=      Arthas
       Thrall (    Priest): HP=   16, mana =    10, target=    Mograine
-    Mograine (     Rogue): HP=   88, mana =     0, target=      Arthas
-       Jaina (      Mage): HP=   52, mana =    10, target=      Arthas
+    Mograine (     Rogue): HP=  100, mana =     0, target=      Arthas
+       Jaina (      Mage): HP=   16, mana =    10, target=      Arthas
 
    === monsters:
       Arthas (      Boss): HP=   82, mana =     0, target=    Fordring
@@ -392,26 +387,24 @@ Arthas multi-attacks Jaina with attack power 8
 Jaina loses 8 hit points after attack 8 and defense 0
 Fordring is dead
 Action for Thrall: 
-Thrall;heal;Jaina
-Thrall heals Jaina for 12
-Action for Mograine: 
+Fordring;defend;Arthas
+Thrall;heal;Mograine
 Mograine;attack;Arthas
-Mograine attacks Arthas with attack power 27
-Arthas loses 27 hit points after attack 27 and defense 0
-Action for Jaina: 
 Jaina;attack;Arthas
+Action for Mograine: 
+Action for Jaina: 
 Jaina attacks Arthas with attack power 20
 Arthas loses 20 hit points after attack 20 and defense 0
 ------------------------------- Turn : 10-------------------------------
 --------------
    === players:
     Fordring (   Warrior): HP=    0, mana =     0, target=      Arthas
-      Thrall (    Priest): HP=    8, mana =     0, target=       Jaina
-    Mograine (     Rogue): HP=   80, mana =     0, target=      Arthas
-       Jaina (      Mage): HP=   56, mana =     0, target=      Arthas
+      Thrall (    Priest): HP=    8, mana =    10, target=    Mograine
+    Mograine (     Rogue): HP=   92, mana =     0, target=      Arthas
+       Jaina (      Mage): HP=    8, mana =     0, target=      Arthas
 
    === monsters:
-      Arthas (      Boss): HP=   35, mana =     0, target=    Fordring
+      Arthas (      Boss): HP=   62, mana =     0, target=    Fordring
 --------------
 Arthas shifts their attacks to Thrall
 Arthas attacks Thrall with attack power 20
@@ -427,25 +420,23 @@ Arthas multi-attacks Mograine with attack power 8
 Mograine loses 8 hit points after attack 8 and defense 0
 Arthas multi-attacks Jaina with attack power 8
 Jaina loses 8 hit points after attack 8 and defense 0
+Jaina, the brave Mage, has died.
 Fordring is dead
 Thrall is dead
 Action for Mograine: 
-Mograine;attack;Arthas
-Jaina;attack;Arthas
 Mograine attacks Arthas with attack power 20
 Arthas loses 20 hit points after attack 20 and defense 0
-Action for Jaina: 
-Jaina does not have enough mana.
+Jaina is dead
 ------------------------------- Turn : 11-------------------------------
 --------------
    === players:
     Fordring (   Warrior): HP=    0, mana =     0, target=      Arthas
-      Thrall (    Priest): HP=    0, mana =     0, target=       Jaina
-    Mograine (     Rogue): HP=   72, mana =     0, target=      Arthas
-       Jaina (      Mage): HP=   48, mana =     0, target=      Arthas
+      Thrall (    Priest): HP=    0, mana =    10, target=    Mograine
+    Mograine (     Rogue): HP=   84, mana =     0, target=      Arthas
+       Jaina (      Mage): HP=    0, mana =     0, target=      Arthas
 
    === monsters:
-      Arthas (      Boss): HP=   15, mana =     0, target=      Thrall
+      Arthas (      Boss): HP=   42, mana =     0, target=      Thrall
 --------------
 Arthas shifts their attacks to Mograine
 Arthas attacks Mograine with attack power 20
@@ -460,6 +451,7 @@ Arthas multi-attacks Mograine with attack power 8
 Mograine loses 8 hit points after attack 8 and defense 0
 Arthas multi-attacks Jaina with attack power 8
 Jaina loses 8 hit points after attack 8 and defense 0
+Jaina, the brave Mage, has died.
 Fordring is dead
 Thrall is dead
 Action for Mograine: 
@@ -467,6 +459,36 @@ Mograine;attack;Arthas
 Jaina;attack;Arthas
 Mograine attacks Arthas with attack power 27
 Arthas loses 27 hit points after attack 27 and defense 0
+Jaina is dead
+------------------------------- Turn : 12-------------------------------
+--------------
+   === players:
+    Fordring (   Warrior): HP=    0, mana =     0, target=      Arthas
+      Thrall (    Priest): HP=    0, mana =    10, target=    Mograine
+    Mograine (     Rogue): HP=   56, mana =     0, target=      Arthas
+       Jaina (      Mage): HP=    0, mana =     0, target=      Arthas
+
+   === monsters:
+      Arthas (      Boss): HP=   15, mana =     0, target=    Mograine
+--------------
+Arthas attacks Mograine with attack power 20
+Mograine loses 20 hit points after attack 20 and defense 0
+Arthas multi-attacks Fordring with attack power 8
+Fordring loses 0 hit points after attack 8 and defense 10
+Fordring, the brave Warrior, has died.
+Arthas multi-attacks Thrall with attack power 8
+Thrall loses 8 hit points after attack 8 and defense 0
+Thrall, the brave Priest, has died.
+Arthas multi-attacks Mograine with attack power 8
+Mograine loses 8 hit points after attack 8 and defense 0
+Arthas multi-attacks Jaina with attack power 8
+Jaina loses 8 hit points after attack 8 and defense 0
+Jaina, the brave Mage, has died.
+Fordring is dead
+Thrall is dead
+Action for Mograine: 
+Mograine attacks Arthas with attack power 20
+Arthas loses 20 hit points after attack 20 and defense 0
 Arthas, the brave Boss, has died.
 Mograine has vanquished your foe.
    ___                _ _                  _ 
@@ -474,4 +496,4 @@ Mograine has vanquished your foe.
  / /_\/ _ \ / _ \ / _` | '_ \| | | |/ _ \/  /
 / /_\\ (_) | (_) | (_| | |_) | |_| |  __/\_/ 
 \____/\___/ \___/ \__,_|_.__/ \__, |\___\/   
-                              |___/          
+                              |___/  

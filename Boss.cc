@@ -46,16 +46,15 @@ void Boss::multiAttack( std::vector< std::shared_ptr<Entity> > & others ) {
   
     
   int ap = this->multiAttackPower_;
-  if ( heroic_ && mana_ >= 10 && getTurn() % 3 == 0 ) {     
-    ap *= 1.5;
+  if ( heroic_ && mana_ >= 10 && getTurn() % 3 == 0 ) {
+    ap *= 1.5;    
+    if ( lastturn != getTurn() ) {
+      mana_ -= 10;
+      lastturn = getTurn();
+    }
   }  
   for ( auto other : others ) {
     multiAttack( other.get(), ap );
-  }
-  if ( lastturn != getTurn() ) {
-    if ( mana_ >= 10 )
-      mana_ -= 10;   // Be sure to only remove the mana once!
-    lastturn = getTurn(); 
   }
   
 };
